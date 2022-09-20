@@ -1,0 +1,9 @@
+1. pip3 install virtualenv
+2. внутри экс00 python3 -m venv eheike - создается папка с виртуальным окружением eheike
+3. source eheike/bin/activate активируем виртуальную среду
+4. скрипт выводит виртуальную среду если она есть. Если ее нет, то выводит кей еррор
+5. deactivate eheike деактивируем виртуальную среду
+6. python3  
+>>> import os
+>>> os.environ
+чтобы вытащить в терминале виртуальную среду (поле 'VIRTUAL_ENV')
